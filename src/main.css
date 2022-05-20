@@ -1,0 +1,84 @@
+:root {
+  --main-color: #00DF5E;
+  --white: #f9f9f9;
+  --gray: #828282;
+  --gray-200: #333333;
+  --gray-400: #212121;
+  --dark: #171717;
+  --font-title: 'DM Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  font-family: var(--font-title);
+}
+
+p {
+  color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--white);
+}
+
+body {
+  background-color: var(--dark);
+  border-left: 1px solid rgb(103, 14, 172);
+  border-right: 1px solid rgb(103, 14, 172);
+  margin: 0 6rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2.175rem 10% 3.75rem 10%;
+  min-height: 100vh;
+}
+
+.btn {
+  font-family: var(--font-title);
+  padding: 0.75rem 1.687rem;
+  border: none;
+  font-weight: 500;
+}
+
+.btn-downloadCv {
+  background-color: var(--main-color);
+  color: var(--dark);
+}
+
+.btn-contact {
+  background-color: var(--dark);
+  color: var(--white);
+  border: 1px solid var(--gray-200);
+}
+
+.subtitle {
+  font-family: var(--font-title);
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--gray);
+}

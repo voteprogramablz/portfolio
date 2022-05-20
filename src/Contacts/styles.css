@@ -1,0 +1,32 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts .infoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts .iconContainer {
+  background-color: var(--gray-400);
+  clip-path: circle();
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contacts .icon {
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+.contacs .infoTitle {
+  font-size: 1.125rem;
+}
+
+.contacts .infoSubtitle {
+  color: var(--gray);
+  font-size: 1rem;
+}

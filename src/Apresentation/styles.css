@@ -1,0 +1,25 @@
+.apresentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:  8.937rem;
+  margin-bottom: 10.562rem;
+}
+
+.apresentation .firstSection .title {
+  color: var(--white);
+  margin-bottom: 1.125rem;
+}
+
+.apresentation .firstSection .subtitle {
+  font-family: var(--font-title);
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--gray);
+  margin-bottom: 2.1875rem;
+}
+
+.apresentation .firstSection .buttonsContainer {
+  display: flex;
+  gap: 0.9375rem;
+}
