@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e88582d8.css",
-    "main.js": "/portfolio/static/js/main.cc69f701.js",
+    "main.js": "/portfolio/static/js/main.62ec2a37.js",
     "static/media/dogs.png": "/portfolio/static/media/dogs.c67df854f77130883940.png",
     "static/media/originsix.png": "/portfolio/static/media/originsix.4bbc110cb8a98b45920b.png",
+    "static/media/Currículo.pdf": "/portfolio/static/media/Currículo.fa7ee298d54485d35a0b.pdf",
     "static/media/animaisfantasticos.png": "/portfolio/static/media/animaisfantasticos.45f3ffe73ac49edbac00.png",
     "index.html": "/portfolio/index.html",
     "main.e88582d8.css.map": "/portfolio/static/css/main.e88582d8.css.map",
-    "main.cc69f701.js.map": "/portfolio/static/js/main.cc69f701.js.map"
+    "main.62ec2a37.js.map": "/portfolio/static/js/main.62ec2a37.js.map"
   },
   "entrypoints": [
     "static/css/main.e88582d8.css",
-    "static/js/main.cc69f701.js"
+    "static/js/main.62ec2a37.js"
   ]
 }
