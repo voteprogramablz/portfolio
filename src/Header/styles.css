@@ -1,6 +1,11 @@
 .header {
-  margin-bottom: 8.937rem;
+  width: 100%;
+  background-color: var(--gray-400);
+  padding:1.5rem 16rem;
   animation: slideToTheLeft 0.3s forwards;
+  position: fixed;
+  z-index: 10000;
+  box-shadow: 0 0 0 1px var(--gray-200);
 }
 
 .header .headerContainer {

@@ -11,15 +11,17 @@ import MySkills from "./MySkills";
 function App() {
   return (
     <>
-      <div className="container">
+      <div className="outsideContainer">
         <Header />
-        <Apresentation />
-        <AboutMe />
-        <Contacts />
-        <Projects />
-        <MySkills />
+        <div className="container">
+          <Apresentation />
+          <AboutMe />
+          <Contacts />
+          <Projects />
+          <MySkills />
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }
