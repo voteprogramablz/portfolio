@@ -87,12 +87,13 @@ h5 {
 }
 
 .container {
-  border-left: 1px solid rgb(103, 14, 172);
-  border-right: 1px solid rgb(103, 14, 172);
-
-  margin: 0 6rem;
+  margin: 0 auto;
+  width: 85%;
   padding: 2.175rem 10rem 3.75rem 10rem;
   min-height: 100vh;
+
+  border-left: 1px solid rgb(103, 14, 172);
+  border-right: 1px solid rgb(103, 14, 172);
 }
 
 .btn {

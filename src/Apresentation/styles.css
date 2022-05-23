@@ -1,4 +1,4 @@
-.apresentation {
+#apresentation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -7,12 +7,12 @@
   animation: slideToTheRight 0.3s forwards;
 }
 
-.apresentation .firstSection .title {
+#apresentation .firstSection .title {
   color: var(--white);
   margin-bottom: 1.125rem;
 }
 
-.apresentation .firstSection .subtitle {
+#apresentation .firstSection .subtitle {
   font-family: var(--font-title);
   font-size: 1.125rem;
   font-weight: 500;
@@ -20,7 +20,7 @@
   margin-bottom: 2.1875rem;
 }
 
-.apresentation .firstSection .buttonsContainer {
+#apresentation .firstSection .buttonsContainer {
   display: flex;
   gap: 0.9375rem;
 }

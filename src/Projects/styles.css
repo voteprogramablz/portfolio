@@ -13,7 +13,7 @@
 
 #projects .cardsGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(21.875rem, 1fr));
   gap: 2.8125rem;
 }
 
@@ -28,8 +28,8 @@
 }
 
 #projects .imageWrapper img {
-  width: 18.75rem;
-  height: 8.125rem;
+  max-width: 18.75rem;
+  max-height: 8.125rem;
   object-fit: cover;
   margin-bottom: 1.25rem;
   border: 1px solid var(--gray-200);
@@ -44,3 +44,5 @@
   font-size: 0.875rem;
   color: var(--gray);
 }
+
+@media screen {}

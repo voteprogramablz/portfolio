@@ -1,43 +1,43 @@
-.header {
+#header {
   width: 100%;
   background-color: var(--gray-400);
-  padding:1.5rem 16rem;
+  padding: 1.5rem 16rem;
   animation: slideToTheLeft 0.3s forwards;
   position: fixed;
   z-index: 10000;
   box-shadow: 0 0 0 1px var(--gray-200);
 }
 
-.header .headerContainer {
+#header .headerContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.header .titleContainer {
+#header .titleContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 1rem;
 }
 
-.header .title {
+#header .title {
   color: var(--white);
   font-size: 1.625rem;
   font-weight: bold;
 }
 
-.header ul {
+#header ul {
   display: flex;
   flex-direction: row;
 }
 
-.header ul li {
+#header ul li {
   margin-left: 2.812rem;
 }
 
-.header ul li a {
+#header ul li a {
   color: var(--white);
   font-family: var(--font-title);
   font-weight: 400;

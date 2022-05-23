@@ -4,12 +4,12 @@ import Curriculo from "../assets/Currículo.pdf";
 
 export function Apresentation() {
   return (
-    <div className="apresentation">
+    <div id="apresentation">
       <div className="firstSection">
         <h1 className="title">
           Olá, eu sou o<br></br> André Melo
         </h1>
-        <p className="subtitle">Desenvolvedor Front-end </p>
+        <p className="subtitle">Desenvolvedor Full-stack </p>
         <div className="buttonsContainer">
           <a href={Curriculo} target="_blank" rel="noreferrer" className="btn btn-downloadCv">
             Download CV
