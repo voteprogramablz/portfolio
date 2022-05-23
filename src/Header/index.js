@@ -17,16 +17,16 @@ function Header() {
         <div>
           <ul>
             <li>
-              <a href="#about">Sobre Mim</a>
+              <a href="#aboutMe">Sobre Mim</a>
             </li>
             <li>
               <a href="#projects">Projetos</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#services">Serviços</a>
-            </li>
+            </li> */}
             <li>
-              <a href="#mySkills">Minhas skills</a>
+              <a href="#skills">Minhas skills</a>
             </li>
           </ul>
         </div>

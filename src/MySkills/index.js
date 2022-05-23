@@ -18,7 +18,7 @@ import {
 
 const MySkills = () => {
   return (
-    <div className="skills">
+    <div id="skills">
       <h2>Minhas skills</h2>
 
       <div className="skillsGrid">

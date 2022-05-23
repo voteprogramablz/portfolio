@@ -1,18 +1,18 @@
-.aboutMe {
+#aboutMe {
   margin: 0 auto;
   width: 60%;
   margin-bottom: 6.25rem;
   animation: slideToTheTop 0.3s forwards;
 }
 
-.aboutMe .title {
+#aboutMe .title {
   text-align: center;
   margin-bottom: 1.875rem;
   font-weight: bold;
   font-size: 2rem;
 }
 
-.aboutMe .subtitle {
+#aboutMe .subtitle {
   text-align: center;
   margin-bottom: 1.875rem;
 }

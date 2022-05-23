@@ -8,7 +8,7 @@ import AnimaisFantasticos from "../images/animaisfantasticos.png";
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div id="projects">
       <h2>Projetos</h2>
       <div className="cardsGrid">
         <Card

@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  animation: slideToTheLeft 0.3s forwards;
 }
 
 .contacts .infoWrapper {
