@@ -5,6 +5,8 @@ import { Apresentation } from "./Apresentation";
 import { AboutMe } from "./AboutMe";
 import Footer from "./Footer";
 import Contacts from "./Contacts";
+import Projects from "./Projects";
+import MySkills from "./MySkills";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         <Header />
         <Apresentation />
         <AboutMe />
-        <Contacts /> 
+        <Contacts />
+        <Projects />
+        <MySkills />
       </div>
       <Footer />
     </>

@@ -4,6 +4,7 @@
   justify-content: space-between;
   margin-top:  8.937rem;
   margin-bottom: 10.562rem;
+  animation: slideToTheRight 0.3s forwards;
 }
 
 .apresentation .firstSection .title {

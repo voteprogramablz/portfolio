@@ -52,6 +52,39 @@ body {
   margin: 0 6rem;
 }
 
+@keyframes slideToTheRight {
+  from {
+    transform: translateX(130px);
+  }
+
+  to {
+    transform: translateX(initial);
+  }
+
+}
+
+@keyframes slideToTheLeft {
+  from {
+    transform: translateX(-130px);
+  }
+
+  to {
+    transform: translateX(initial);
+  }
+
+
+}
+@keyframes slideToTheTop {
+  from {
+    transform: translateY(200px);
+  }
+
+  to {
+    transform: translateY(initial);
+  }
+
+}
+
 .container {
   margin: 0 auto;
   padding: 2.175rem 10% 3.75rem 10%;

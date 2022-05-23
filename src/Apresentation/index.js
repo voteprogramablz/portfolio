@@ -11,7 +11,14 @@ export function Apresentation() {
         <p className="subtitle">Desenvolvedor Front-end </p>
         <div className="buttonsContainer">
           <button className="btn btn-downloadCv">Download CV</button>
-          <button className="btn btn-contact">Entrar em contato</button>
+          <a
+            href="https://wa.me/5541987555234?text=Ol%C3%A1,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20marcar%20uma%20entrevista%20com%20voc%C3%AA."
+            target={"_blank"}
+            rel="noreferrer"
+            className="btn btn-contact"
+          >
+            Entrar em contato
+          </a>
         </div>
       </div>
       <div className="secondSection">

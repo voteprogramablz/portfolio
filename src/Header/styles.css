@@ -1,5 +1,6 @@
 .header {
   margin-bottom: 8.937rem;
+  animation: slideToTheLeft 0.3s forwards;
 }
 
 .header .headerContainer {

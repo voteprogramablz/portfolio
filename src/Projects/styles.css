@@ -1,0 +1,45 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 1.875rem;
+}
+
+.projects .cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.8125rem;
+}
+
+.projects .cardContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gray-400);
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5625rem;
+  border: 1px solid var(--gray-200);
+}
+
+.projects .imageWrapper img {
+  width: 18.75rem;
+  height: 8.125rem;
+  object-fit: cover;
+  margin-bottom: 1.25rem;
+  border: 1px solid var(--gray-200);
+}
+
+.projects .cardContainer h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.375rem;
+}
+
+.projects .cardContainer p {
+  font-size: 0.875rem;
+  color: var(--gray);
+}

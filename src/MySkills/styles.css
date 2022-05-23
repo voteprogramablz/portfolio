@@ -1,0 +1,29 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 11rem;
+}
+
+.skills h2 {
+  margin-bottom: 1.875rem;
+}
+
+.skills .skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 3.1875rem;
+}
+
+.skills .icon {
+  font-size: 5rem;
+  color: var(--main-color);
+}
+
+.skills .cardContainer {
+  background-color: var(--gray-400);
+  border: 1px solid var(--gray-200);
+  padding: 2rem;
+}
