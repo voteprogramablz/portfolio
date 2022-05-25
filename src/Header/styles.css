@@ -38,7 +38,28 @@
 }
 
 #header ul li a {
+  position: relative;
   color: var(--white);
   font-family: var(--font-title);
   font-weight: 400;
+  padding-bottom: 5px;
+}
+
+#header ul li a::before {
+  content: "";
+  width: 0px;
+  background-color: var(--main-color);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  border: 50%;
+  transition: width .35s;
+}
+
+#header ul li a:hover::before {
+  height: 2px;
+  width: 100%;
+}
+#header ul li a:hover {
+  opacity: 0.85;
 }
