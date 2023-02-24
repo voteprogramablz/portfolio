@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: portfolio
+    image: portfolio-image
+    build:
+      context: .
+    ports:
+      - 8080:3000
